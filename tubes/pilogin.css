@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+a.tombol{
+    text-decoration: none;
+    top: 20px;
+    left: 120px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+}
+    
+
+.gambar{
+    background-image: url(rog.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+a.judul{
+    text-decoration: none;
+}
+
+
+.daftar h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.daftar{
+    
+    background: white;
+    opacity: 0.8;
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    left: 350px;
+    top: 320px;
+    border-radius: 20px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+
+}
+
+.pegawai{
+    
+    background: white;
+    opacity: 0.8;
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    left: 850px;
+    top: 320px;
+    border-radius: 20px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+
+}
+
+a.pegawaidot{
+    text-decoration: none;
+}
+
+
+.pegawai h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.textjelas p{
+    top: 500px;
+    position: relative;
+    text-align: center;
+    color: white;
+}

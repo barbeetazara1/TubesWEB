@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.tombol{
+    text-decoration: none;
+    top: 20px;
+    left: 120px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+body{
+    background-image: url(keyboard1.jpg);
+    height: 1800px;
+    background-size: 500vh;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    left: 670px;
+    color: black;
+    
+}
+
+nav{
+    height: 100px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+ul li{
+    position: relative;
+    right: 50px;
+    display: inline-block;
+    list-style: none;
+    line-height: 100px;
+    float: right;
+}
+
+li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 0 20px;
+    color: white;
+}
+
+
+
+p{
+    position: absolute;
+}
+
+.gambar h2{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+}
+
+.kontent .gambar{
+    border-radius: 15px;
+    border: 6px solid white;
+    left: 80px;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    background-image: url(harga.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+
+}
+
+.isi {
+    border: 2px solid white;
+    left: 80px;
+    top: 550px;
+    position: absolute;
+    background-image: url(hijau.jpg);
+    background-size: cover;
+    background-position-y: -400px ;
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.isi h2{
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi p{
+    top: 40px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi2 {
+    border: 2px solid black;
+    left: 80px;
+    top: 450px;
+    position: relative;
+    background-image: url(xbox.jpg);
+    background-size: cover;
+    background-position-y: -200px ;
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.isi2 p{
+    top: 40px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi2 h2{
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi3 {
+    border: 2px solid black;
+    left: 80px;
+    top: 510px;
+    position: relative;
+    background-image: url(ps4.jpg);
+    background-size: cover;
+    background-position-y: -200px ;
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.isi3 p{
+    top: 40px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi3 h2{
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+input{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+

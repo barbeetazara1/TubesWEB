@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.gambar{
+    background-image: url(keyboard1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.konten-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.konten{
+    text-align: center;
+}
+
+.konten-area h1{
+    text-align: center;
+    top: 20px;
+    left: 120px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+}
+
+
+.konten {
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 30px;
+    align-items: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}

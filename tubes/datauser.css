@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.tombol{
+    text-decoration: none;
+    top: 20px;
+    left: 120px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    
+}
+
+
+body{
+    background-image: url(ps5.jpg);
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    left: 670px;
+    color: black;
+    
+}
+
+nav{
+    height: 100px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+    
+}
+
+li a:hover{
+        background-color: white;
+        color: black;
+}
+
+ul li{
+    position: relative;
+    right: 50px;
+    display: inline-block;
+    list-style: none;
+    line-height: 100px;
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 0 20px;
+    color: white
+}
+
+p{
+    position: absolute;
+}
+
+.gambar h2{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kontent .gambar{
+    border-radius: 15px;
+    border: 6px solid white;
+    left: 80px;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    background-image: url(star0000.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+
+}
+
+.textnya{
+    left: 35px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    width: 95%;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.textnya p{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.textnya h2{
+    left: 400px;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.pict{
+    position: relative;
+    height: 400px;
+    width: 700px;
+    left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pict2{
+    position: relative;
+    height: 400px;
+    width: 700px;
+    left: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+p.isi{
+    right: 370px;
+    position: relative;
+    color: black;
+}
+
+p.isi2{
+    bottom: 100px;
+    left: 370px;
+    position: relative;
+    color: black;
+}
+
+table{
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 70px;
+    background-color: #04AA6D;
+  }
+
+td {
+    height: 30px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  tr:hover {background-color: lightblue;}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+
+  .dilet{
+      background-color: red;
+      border-radius: 10px;
+      color: white;
+      border: 3px solid black;
+      letter-spacing: 1px;
+      width: 80px;
+      height: 20px;
+      cursor: pointer;
+  }
+
+  .dilet1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+
+  .dilet1:hover {
+    background-color: #f44336;
+    color: white;
+  }
